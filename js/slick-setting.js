@@ -45,6 +45,7 @@ $(function() {
     $('.single-item').slick({
         asNavFor: '.slider',
         arrows: true,
+        infinite: true,
         waitForAnimate: false
     });
 
