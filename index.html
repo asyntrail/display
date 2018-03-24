@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Display</title>
+    <title>Display home page</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
@@ -58,10 +58,10 @@
                 <!-- begin header_nav -->
                 <div class="header_nav">
                     <nav class="nav">
-                        <a class="nav_a_padding" href="#">HOME</a>
-                        <a href="#">ABOUT</a>
-                        <a href="#">WORK</a>
-                        <a href="#">CONTACT</a>
+                        <a href="index.html">HOME</a>
+                        <a href="about.html">ABOUT</a>
+                        <a href="work.html">WORK</a>
+                        <a href="contact.html">CONTACT</a>
                     </nav>
                 </div>
                 <!-- end header_nav -->
@@ -78,7 +78,7 @@
                 <div class="hero_text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu eratiuy lacus, vel congue mauris. Fusce velitaria justo, faucibus eu.</p>
                 </div>
-                <a href="#" class="green_button">BROWSE PORTFOLIO</a>
+                <a href="#portfolio" class="green_button">BROWSE PORTFOLIO</a>
             </div>
         </div>
         <!-- end hero -->
@@ -106,10 +106,10 @@
         </div>
         <!-- end video-section -->
         <!-- begin portfolio-section -->
-        <div class="portfolio_section">
-            <div class="text_container">
+        <div class="portfolio_section" id="portfolio">
+            <div class="text_container portfoio_text">
                 <h3 class="h3">A Couple of Our Featured Projects</h3>
-                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt eros.</p>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor. Suspendisse non urna mi, quis tincidunt elos.</p>
             </div>
             <!-- begin portfolio_sliders -->
             <div class="portfolio_sliders">
@@ -181,27 +181,31 @@
         <!-- end portfolio-section -->
         <!-- begin footer -->
         <div class="footer">
-            <div class="footer_section1">
-                <div class="footer_section1_col1">
-                    <span>ARE YOU READY TO BE BLOWN AWAY?</span>
+            <!--begin  content clearfix-->
+            <div class=" clearfix">
+                <div class="footer_section1">
+                    <div class="footer_section1_col1">
+                        <span>ARE YOU READY TO BE BLOWN AWAY?</span>
+                    </div>
+                    <div class="footer_section1_col2">
+                        <span><a href="#" class="green_button">CLICK HERE TO FIND OUT</a></span>
+                    </div>
                 </div>
-                <div class="footer_section1_col2">
-                    <span><a href="#" class="green_button">CLICK HERE TO FIND OUT</a></span>
+                <div class="footer_section2">
+                    <div class="footer_section2_col1">
+                        <span>COPYRIGHT 2018 DISPLAY. ALL RIGHTS RESERVED.</span>
+                    </div>
+                    <div class="footer_section2_col2">
+                        <nav class="footer_nav ">
+                            <a href="index.html">HOME</a> /
+                            <a href="about.html">ABOUT</a> /
+                            <a href="work.html">WORK</a> /
+                            <a href="contact.html">CONTACT</a>
+                        </nav>
+                    </div>
                 </div>
             </div>
-            <div class="footer_section2">
-                <div class="footer_section2_col1">
-                    <span>COPYRIGHT 2018 DISPLAY. ALL RIGHTS RESERVED.</span>
-                </div>
-                <div class="footer_section2_col2">
-                    <nav class="footer_nav ">
-                        <a href="#">HOME</a> /
-                        <a href="#">ABOUT</a> /
-                        <a href="#">WORK</a> /
-                        <a href="#">CONTACT</a>
-                    </nav>
-                </div>
-            </div>
+            <!-- end clearfix -->
         </div>
         <!-- end footer -->
     </div>
