@@ -283,6 +283,13 @@ body {
     padding-bottom: 30px;
 }
 
+.second_slider_text{
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 2%;
+}
+
 .slick-slide a {
     position: relative;
     display: block;
@@ -612,6 +619,9 @@ input {
     }
     .work_links {
         padding: 1%;
+    }
+    .work_switch{
+        padding: 45px 2% 45px 2%;
     }
     .contact_section {
         padding: 0px 2% 50px 2%;
