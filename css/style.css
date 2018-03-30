@@ -311,8 +311,10 @@ body {
 
 .slick-next:hover:before {
     color: green;
-    font-family: 'icomoon';
-    content: "\e904";
+}
+
+.slick-prev:hover:before{
+        color: green;
 }
 
 .slick-next:focus:before {
@@ -320,6 +322,9 @@ body {
 }
 
 .slick-prev {
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
     transform: rotate(-180deg);
 }
 
@@ -469,7 +474,6 @@ body {
         display: block;
 }
 
-
 .col_service a{
     height: 100%;
     display: block;
@@ -480,7 +484,7 @@ body {
     padding: 60px 0px 44px 0px;
 }
 
-.service_icon:hover {
+.col_service a:hover {
     color: #423e3d;
     background: #dadada;
 }
@@ -744,5 +748,8 @@ input {
     .nav a {
         font-size: 15px;
         padding: 3px;
+    }
+        .icon_title{
+        font-size: 15px;
     }
 }
