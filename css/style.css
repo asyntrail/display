@@ -84,6 +84,8 @@ body {
 
 .logo {
     text-decoration: none;
+    display: block;
+    padding-bottom: 5px;
 }
 
 .logo_part1 {
@@ -92,15 +94,13 @@ body {
     background-color: #737373;
     font-size: 36px;
     color: white;
-    padding: 5px 10px 0px 15px;
-    display: inline-block;
+    padding: 5px 10px 5px 15px;
 }
 
 .logo_part2 {
     color: #737373;
     font-size: 24px;
-    display: inline-block;
-    padding: 15px 0px 0px 13px;
+    padding: 16px 0px 0px 11px;
 }
 
 .social_btns {
@@ -446,7 +446,7 @@ body {
     float: left;
     width: 25%;
     text-align: center;
-    padding: 60px 0px 30px 0px;
+    min-height: 200px;
 }
 
 .icon-photo:before {
@@ -465,11 +465,19 @@ body {
     content: "\e900";
 }
 
-.service_icon {
+.icons{
+        display: block;
+}
+
+
+.col_service a{
+    height: 100%;
+    display: block;
     color: #737373;
     text-decoration: none;
     font-size: 45px;
     font-weight: normal;
+    padding: 60px 0px 44px 0px;
 }
 
 .service_icon:hover {
